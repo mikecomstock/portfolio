@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Mike Comstock</title>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" type="text/css" />
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="stylesheets/site.css" type="text/css" />
+</head>
+<body>
+<div class="header">
+  <div class="container">
+    <img src="http://www.gravatar.com/avatar/5639b6ff37471b7d5460227f749384a6.png?s=100" alt="" class="img-rounded pull-left" />
+    <h1>Mike Comstock <small>Software Engineer - Full Stack</small></h1>
+  </div>
+</div>
+<div class="container links">
+  <ul class="list-inline">
+    <li>
+    <a href="http://www.linkedin.com/in/michaelcomstock"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+    </li>
+    <li>
+    <a href="https://github.com/mikecomstock"><i class="fa fa-github-square"></i> GitHub</a>
+    </li>
+    <li>
+    <a href="https://twitter.com/mvcomstock"><i class="fa fa-twitter-square"></i> Twitter</a>
+    </li>
+    <li>
+    <a href="mailto:mikecomstock@gmail.com"><i class="fa fa-envelope"></i> Email</a>
+    </li>
+  </ul>
+</div>
+<div class="container main">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="project">
+        <h3>Forexer <small>Node.js / Backbone / Less / Socket.IO / Redis</small></h3>
+        <p class="description">
+        This concept shows live trades on the foreign exchange (forex) currency market. As currencies
+        are exchanged throughout the world, they float between their respective home countries. This
+        gives the user a quick way to view which currencies are currently trending, and which direction
+        they are trending in. The news feed shows a live feed of economic events and breaking news, as
+        it is published.
+        </p>
+        <p class="note">
+        Currently uses randomly generated data, not live feeds.
+        </p>
+        <a href="http://forexer.mikecomstock.com">http://forexer.mikecomstock.com</a>
+        <p><a href="https://github.com/mikecomstock/forexer">GitHub (available by request)</a></p>
+      </div>
+      <div class="project">
+        <h3>Comet <small>JavaScript / .NET MVC</small></h3>
+        <p class="description">
+        This project is an experiment in visualizing a company's real-time risk, as mined from some
+        popular social media feed (like Twitter). Risk mining is done externally to this repository,
+        and my work focused only on the visualization. As risk factors change due to social, economic,
+        climate, etc. factors, bubbles appear/vanish, change in size, and change in color. A news feed
+        on the right shows the top news related to the currently most-risky companies.
+        </p>
+        <p class="note">
+        Currently not using live data, which makes the visualization static. A production implementation
+        is much more interesting.
+        </p>
+        <a href="http://comet.mikecomstock.com">http://comet.mikecomstock.com</a>
+        <p><a href="https://github.com/mikecomstock/cometplus">GitHub (available by request)</a></p>
+      </div>
+      <div class="project">
+        <h3>GitSpice <small>Rails / GitHub API / Bootstrap</small></h3>
+        <p class="description">
+        The goal of this project is to facilitate code reviews and some simple project management
+        type activities for projects hosted on GitHub. Collaborators will 'watch' certain files, and
+        they'll automatically receive notifications when those files are changed. One (or more) team
+        members will approve/deny the change through a simple interface.
+        </p>
+        <p class="note">
+        Project is currently in progress, needs major work to be usable.
+        </p>
+        <a href="http://gitspice.mikecomstock.com">http://gitspice.mikecomstock.com</a>
+        <p><a href="https://github.com/mikecomstock/gitspice">GitHub</a></p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="project">
+        <h3>Triptitude <small>.NET MVC / SQL Server / Google Maps API / Amazon API </small></h3>
+        <p class="description">
+        Similar to TripIt, this project focused on travel planning and organizing. I focused on the
+        pre-booking stage, the idea being that you plan the majority of your vacation before you
+        actually book flights, hotels, and activities. Think project management, but for travel.
+        Create itineraries, packing lists, budgets, etc. or view others' plans and fork them to create
+        your own. This version of the site was ultimately a failure, at least partially because of
+        a sub-optimal UI.
+        </p>
+        <p class="note">
+        Currently Offline
+        </p>
+        <p><a href="https://github.com/mikecomstock/triptitude">GitHub</a></p>
+      </div>
+      <div class="project">
+        <h3>Triptitude <small>Node.js / Backbone / Leaflet.js & OpenStreetMap</small></h3>
+        <p class="description">
+        After realizing the UI problems of the original site, I came up with a single-page concept using
+        the Backbone.js framework. This was a step in the right direction, but this project didn't get
+        very far. I quickly discovered the inadequacies of using Backbone without a larger library (like
+        Marionette) on top of it. For a larger single-page site like this, Ember, Angular, or Meteor would
+        have been a better choice.
+        </p>
+        <a href="http://triptitude-node.mikecomstock.com">http://triptitude-node.mikecomstock.com</a>
+        <p><a href="https://github.com/mikecomstock/triptitude-node">GitHub</a></p>
+      </div>
+      <div class="project">
+        <h3>Focoto <small>Rails / Postmark API</small></h3>
+        <p class="description">
+        An experiment with the <a href="https://postmarkapp.com/">Postmark</a> API. While you're at a
+        wedding reception or a party, email your photos to an address provided by the host. The photos
+        are routed to a Rails app (after going through Gmail &amp; Postmark) and displayed on the 'board'
+        for the event. The entire process takes just a few seconds, which allows the host to display the
+        feed live on a projector, if desired.
+        </p>
+        <p class="note">
+        Site works, but needs major UI work to be usable.
+        </p>
+        <a href="http://focoto.mikecomstock.com">http://focoto.mikecomstock.com</a>
+        <p><a href="https://github.com/mikecomstock/focoto">GitHub</a></p>
+      </div>
+      <div class="project">
+        <h3>Portfolio <small>Sinatra / Bootstrap</small></h3>
+        <p class="description">
+        This site! There isn't much interesting to talk about here. It uses Sinatra to serve up views,
+        a bit of SASS, and a photo or two. Bootstrap, FontAwesome, Google Fonts, and
+        Gravatar are used (each through a CDN) to make it all look a bit better.
+        </p>
+        <a href="http://mikecomstock.com">http://mikecomstock.com</a>
+        <p><a href="https://github.com/mikecomstock/portfolio">GitHub</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container footer">
+  <a href="http://www.flickr.com/photos/parksjd/5356709712">"San Francisco City Lights"</a> by <a href="http://www.flickr.com/photos/parksjd/">Joe Parks</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC 2.0</a><br/>
+  <a href="http://subtlepatterns.com/?s=lil+fiber">"Graphcoders Lil FIber"</a> by <a href="http://graphicriver.net/user/graphcoder?ref=graphcoder">Badhon Ebrahim</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>
+</div>
+</body>
+</html>

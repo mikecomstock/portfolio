@@ -1,0 +1,61 @@
+body {
+  background: url('/images/sf4.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+.header {
+  padding: 15px 0;
+  background: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/lil_fiber.png') #FFF repeat;
+  img {
+    margin-right: 15px;
+  }
+  h1 {
+    @media(max-width:475px) {
+      font-size: 28px;
+    }
+    small {
+      display:block;
+    }
+  }
+}
+
+.links {
+  text-align: center;
+  font-size: 1.4em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  li {
+    width: 150px;
+  }
+  a:hover, a:active, a:focus {
+    text-decoration: none;
+  }
+}
+
+.main {
+  background-color: rgba(255,255,255,0.85);
+  padding-bottom: 15px;
+}
+
+.project {
+  h3 small {
+    display: inline-block;
+  }
+  .note {
+    font-size: 0.9em;
+    font-style: italic;
+  }
+}
+
+.footer {
+  color: #999;
+  font-size: 12px;
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  @media(max-width:475px) {
+    font-size: 10px;
+    text-align: center;
+  }
+}
